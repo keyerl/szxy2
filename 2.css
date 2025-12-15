@@ -1,0 +1,31 @@
+#float-input{
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:9999;
+    background:#fff;
+    padding:12px 16px;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+    display:flex;
+    gap:8px;
+    align-items:center;
+    font-size:14px;
+  }
+  #float-input input{
+    border:1px solid #ccc;
+    border-radius:4px;
+    padding:6px 8px;
+    width:160px;
+    outline:none;
+  }
+  #float-input button{
+    border:none;
+    background:#444;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:4px;
+    cursor:pointer;
+    transition:background .2s;
+  }
+  #float-input button:hover{background:#555;}
